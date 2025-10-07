@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="bn-IN">
+<head>
+  <meta charset="UTF-8">
+  <title>Siva Prasad Mukherjee | Virtual Space</title>
+  <link rel="icon" type="image/x-icon" href="spm.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;600;900&family=Noto+Serif+Bengali:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --brand-blue: #2a4f6e;
+      --card-bg: #ffffff;
+      --border-color: #e0e0e0;
+      --text-muted: #5a748c;
+      --color-primary-yellow: #ffff00;
+      --color-text-dark: #333333;
+      --color-text-white: #ffffff;
+      --color-bg-brand: #e6f2ed;
+    }
+    body { font-family: 'Noto Sans Bengali', system-ui, sans-serif; background-color: var(--color-bg-brand); color: #2c2c2c; margin: 0; display: flex; flex-direction: column; min-height: 100vh; }
+    main { flex-grow: 1; }
+    header { background: var(--card-bg); padding: 15px 40px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 10px rgba(0,0,0,0.05); border-bottom: 1px solid var(--border-color); font-family: system-ui, sans-serif; }
+    .logo { display: flex; align-items: center; gap: 15px; }
+    .logo img { height: 45px; }
+    .logo-text { display: flex; flex-direction: column; line-height: 1.2; }
+    .site-name { font-size: 24px; font-weight: bold; color: var(--brand-blue); }
+    .tagline { font-size: 13px; font-weight: 500; color: var(--text-muted); }
+    header nav a {
+        margin-left: 20px;
+        text-decoration: none;
+        color: var(--brand-blue);
+        font-size: 14px;
+        font-weight: 500;
+    }
+    header nav a:hover {
+        text-decoration: underline;
+    }
+    .container-box { background-color: var(--card-bg); padding: 40px; border-radius: 15px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); max-width: 600px; text-align: left; margin: 40px auto; box-sizing: border-box; }
+    .container-box p { font-family: 'Noto Serif Bengali', serif; font-size: 18px; line-height: 1.8; margin-bottom: 1.5em; }
+    .container-box p:last-child { margin-bottom: 0; }
+    .container-box a { color: var(--brand-blue); font-weight: bold; }
+    footer { text-align: center; padding: 25px 40px; margin-top: auto; font-size: 14px; color: var(--text-muted); }
+    
+    @media(max-width: 768px) {
+        /* The problematic "text-align: center;" has been removed from here */
+        header { flex-direction: column; gap: 20px; padding: 20px; }
+        .container-box { margin: 30px 15px; padding: 30px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="name.jpg" alt="SPM Lab Logo">
+      <div class="logo-text">
+        <span class="site-name">Siva Prasad Mukherjee</span>
+        <span class="tagline">Learning Experience Designer</span>
+      </div>
+    </div>
+    <nav>
+        <a href="https://spm.graphy.com/aboutus" target="_blank">About</a>
+        <a href="https://spm.graphy.com/termsofuse" target="_blank">Terms of Use</a>
+        <a href="https://spm.graphy.com/privacypolicy" target="_blank">Privacy Policy</a>
+        <a href="https://spm.graphy.com/contactus" target="_blank">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <div class="container-box">
+      <!-- Main Welcome Message -->
+      <p>
+        স্বাগতম।<br>
+        এটি আমার নিজস্ব ভার্চুয়াল স্পেস।<br>
+        আপনি এখানে আমার এক্সক্লুসিভ ই-বুক, কোর্স এবং অন্যান্য সামগ্রী পাবেন 📚<br>
+        আপনি যদি ইতিমধ্যে একজন সাবস্ক্রাইবার বা ক্রেতা হন, আপনার সমর্থনের জন্য ধন্যবাদ।<br>
+        সমস্ত কেনাকাটা Graphy-এর অফিসিয়াল পেমেন্ট সিস্টেমের মাধ্যমে সুরক্ষিতভাবে সম্পন্ন হয়।<br>
+        সাথে থাকুন ✨
+      </p>
+      <p><strong>শুভেচ্ছান্তে,</strong><br>শিবপ্রসাদ মুখার্জী</p>
+      <p><em>আপডেট পেতে চান?<br>আপডেট, নতুন প্রিভিউ এবং আরও অনেক কিছুর জন্য আমাকে ফেসবুকে ফলো করুন:<br><a href="https://www.facebook.com/sivaprasadmukherjee99/" target="_blank" style="text-decoration: none;"><img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" width="24" height="24" style="vertical-align: middle;"></a></em></p>
+    </div>
+  </main>
+  <footer><p>কপিরাইট &copy; <script>document.write(new Date().getFullYear())</script> শিবপ্রসাদ মুখার্জী। সর্বস্বত্ব সংরক্ষিত।</p></footer>
+</body>
+</html>
